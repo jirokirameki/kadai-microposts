@@ -54,3 +54,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # ページネーション
 gem 'kaminari'
+
+# デバッグ用
+gem 'pry-byebug', group: :development

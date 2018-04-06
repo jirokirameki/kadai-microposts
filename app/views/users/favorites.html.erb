@@ -1,0 +1,13 @@
+<h1 class="h2"><%= @user.name %>（<%= @user.id %>）の Favorite Microposts</h1>
+<ul class="list-group">
+  <% @favorite_microposts.each do |micropost| %>
+    <li class="list-group-item"><%= micropost.content %></li>
+  <% end %>
+</ul>
+
+
+
+
+
+
+
